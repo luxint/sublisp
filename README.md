@@ -4,7 +4,7 @@ Lisp without (most/some) parentheses
 Do you also love lisp but even you get tired of all the parentheses, especially at the end of functions? Well here is the/a solution to that: sublisp! What it will do is replace all succcessive right parentheses with one parentheses and a subscripted count of all the successive parenthesis, See below example:
 
 Before:
-```newlisp
+```
 (define (fib n)
   (case n
     (0 0)
@@ -17,7 +17,7 @@ Before:
        (sequence 1 n)))
 ```
 After conversion:
-```newlisp
+```
 (define (fib n)
   (case n
     (0 0)
