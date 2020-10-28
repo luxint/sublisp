@@ -22,10 +22,12 @@ After conversion:
   (case n
     (0 0)
     (1 1)
-    (true (+ (fib (- n 1)₂ (fib (- n 2)₆
+    (true (+ (fib (- n 1)₂ 
+             (fib (- n 2)₆
 
 (define (fib-to n)
-  (map (fn(x) (fib x)₂ (sequence 1 n)₃
+  (map (fn(x) (fib x)₂ 
+       (sequence 1 n)₃
 ```
-Looks good!
+Looks much better!
 
