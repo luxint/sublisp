@@ -31,3 +31,5 @@ After conversion:
 ```
 Looks much better!
 
+Script is written in newlisp, so you probably need to convert it in your favorite lisp dialect (which should support unicode). Would be great to see if someone actually hacks his evaluator & editor to support this without converting.
+
